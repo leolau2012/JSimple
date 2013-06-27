@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.clear{clear:both;}	body{font-size:12px; font-family:"微软雅黑";font-family:Arial, Helvetica, sans-serif;background-color:#f9f9f9;}
+/*通配*/
+#shenti{width:92%; padding:4%;}#daohang{ margin-bottom:20px; text-align:center;}#daohang h1{ font-size:22px; margin-bottom:1%; display:block; text-align:left;}#daohang h2{ font-size:14px; color:#9d9ea0; display:block; text-align:left; font-weight:100;}
+/*导航*/
+#scroll{ width:100%; overflow-y:scroll;}#nr{width:100%; font-size:14px; margin-bottom:2%; text-align:center;}#nr p{font-size:16px; text-indent:28px; line-height:30px; text-align:left; color:#333;}#nr b{font-size:16px; text-indent:0; line-height:30px; text-align:left; color:#333;}#nr h1{ font-size:50px; text-align:left; margin-bottom:1%; display:block;}.box{ width:100%; text-align:center; margin-bottom:4%;}#nr img{ text-align:center; margin-bottom:20px;}
+/*身体*/
+.blank{ clear:both; overflow:hidden; display:block; overflow:hidden;}
+/*距离上面和下面有距离*/
+.hezi3{ width:100%; height:40px;}.hezi3z{ width:100%; height:40px; float:left; font-size:14px; line-height:50px; color:#666; text-align:center; line-height:20px;}.hezi3y{ height:30xp; width:15%; float:left; text-align:center; font-size:16px; line-height:40px;}.hezi3y a{ color:#000; display:block; background-color:#39F;}.hezi3y a:hover{ color:#000; display:block; background-color:#39F;}TABLE {BORDER-SPACING: 0; BORDER-COLLAPSE: collapse; font-size:14px;}
+/* 上一页下一页 */
+.shagnxia{ width:96%; font-size:14px; line-height:24px; margin:0 auto 20px auto;}.shagnxia a{ color:#000;}.shagnxia a:hover{ color:#000;}.tu{ width:100%; text-align:center;}
+@media only screen and (max-width:280px) {
+#shenti{width:92%; padding:4%;}#daohang{ margin-bottom:20px; text-align:center;}#daohang h1{ font-size:14px; margin-bottom:1%; display:block; text-align:left;}#daohang h2{ font-size:12px; color:#9d9ea0; display:block; text-align:left; font-weight:100;}
+/*导航*/
+#scroll{ width:100%; overflow-y:scroll;}#nr{width:100%; font-size:12px; margin-bottom:2%; text-align:center;}#nr p{font-size:12px; text-indent:28px; line-height:30px; text-align:left; color:#333;}#nr b{font-size:14px; text-indent:0; line-height:30px; text-align:left; color:#333;}#nr h1{ font-size:50px; text-align:left; margin-bottom:1%; display:block;}.box{ width:100%; text-align:center; margin-bottom:4%;}#nr img{ text-align:center; margin-bottom:20px;}
+/*身体*/
+.blank{ clear:both; overflow:hidden; display:block; overflow:hidden;}
+/*距离上面和下面有距离*/
+.hezi3{ width:100%; height:40px;}.hezi3z{ width:100%; height:40px; float:left; font-size:12px; line-height:50px; color:#666; text-align:center; line-height:20px;}.hezi3y{ height:30xp; width:15%; float:left; text-align:center; font-size:16px; line-height:40px;}.hezi3y a{ color:#000; display:block; background-color:#39F;}.hezi3y a:hover{ color:#000; display:block; background-color:#39F;}TABLE {BORDER-SPACING: 0; BORDER-COLLAPSE: collapse; font-size:16px;}
+/* 上一页下一页 */
+.shagnxia{ width:96%; font-size:12px; line-height:24px; margin:0 auto 20px auto;}.shagnxia a{ color:#000;}.shagnxia a:hover{ color:#000;}.tu{ width:100%; text-align:center;}}

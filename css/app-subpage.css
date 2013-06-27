@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:12px;font-family:"微软雅黑";font-family:Arial, Helvetica, sans-serif;background-color:#f9f9f9;}
+/* 通配 */
+#body{width:100%;margin:0 auto;float:left;}#head{width:100%;float:left; text-align:left;}
+/* 头部 */
+#nr{ width:100%;}#nrpicw{ width:100%; height:55px; background-color:#FFF;line-height:55px;}#nrpicw h1{position:absolute; font-size:18px; color:#3d3c3c; float:left; left:90px;}#nrpicw img{ width:20px;}#nrpicb{ width:100%; height:27px; background-color:#5f5e5e;}#nrpicb p{ font-size:12px; padding-left:90px; line-height:24px; color:#FFF;}#pic{width:44px;height:44px;background-color:#FFF;padding:6px;border:1px solid #c3c3c3;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;position:absolute;left: 20px;top: 65px;}#pic img{ height:44px; width:44px;}#xiazai{ width:57px; height:17px; float:right; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius:5px; border:1px solid #2c93d5; margin-top:13px; background-image:url(../images/xiazai.jpg); background-repeat:repeat-x; background-size:100% 100%; padding:8px 0 8px 8px; line-height:17px; font-size:12px; margin-right:10px; color:#FFF;}#xiazai a{ color:#FFF;}#xiazai a:hover{ color:#FFF;}
+/* 图标加名称 */
+#jietu{ width:100%; color:#FFF; overflow:hidden; background-color:#fff;}#jietu ul{ width:400%; margin:20px 50px;}#jietu h1{ font-size:18px; color:#3d3c3c; margin:20px;}#jietu li{ display:inline; margin:0 20px 0 0;}
+/* 截图栏 */
+#tuijian{ width:100%; background-color:#f2f2f2; padding:20px 0 30px 0;}#tuijian h1{ font-size:18px; font-weight:100; margin-left:20px; color:#3d3c3c;}#tuijian ul{ padding-left:20px;}#tuijian li{ float:left; width:25%; text-align:center; margin-top:20px;}#tuijian li img{ width:44px; height:44px;}#tuijian li p{ margin-top:5px; color:#666666;}
+/* 图标栏 */
+#wenben{ width:100%; padding:20px 0; background-color:#f2f2f2;}#wenben h1{ font-size:18px; color:#3d3c3c; margin: 0 20px 10px 20px;}#wenben h2{ font-size:14px; color:#666; line-height:25px; margin:0 20px 5px 20px;}#wenben p{ font-size:14px; color:#666; line-height:25px; margin:0 20px; text-indent:38px;}.hezi{ width:100%; margin:10px 0;}.hezi h1{ font-size:18px; color:#3d3c3c; margin: 0 20px;}
+/* 内容 */
+.swipe {overflow: hidden;visibility: hidden;position: relative; text-align:center;}.swipe {/*max-width: 500px;*/margin: 0 auto;width: 100%;}.swipe-wrap {overflow: hidden;position: relative;}.swipe-wrap > div {float: left;width: 100%;	position: relative;}.swipe-wrap div img {margin:10px auto;padding:0; max-width:200px;}
+/* 图片轮播 */
+/*位置指示*/
+nav #position {text-align: center;list-style: none;margin:10px 0;padding: 0}nav #position li {display: inline-block;width: 10px;height: 10px;border-radius: 10px;background: #666;box-shadow: inset 0 1px 3px black, 0 0 1px 1px #999;margin: 0 2px;cursor: pointer}nav #position li.on {box-shadow: inset 0 1px 3px -1px #ddd, 0 1px 2px rgba(0,0,0,.5);background-color: #ccc;background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccc), color-stop(100%, #ddd));background-image: -webkit-linear-gradient(top, #CCC, #ddd);background-image: -moz-linear-gradient(top, #ccc, #ddd);background-image: -ms-linear-gradient(top, #ccc, #ddd);background-image: -o-linear-gradient(top, #ccc, #ddd);background-image: linear-gradient(top, #ccc, #ddd)}
+/*位置指示结束*/
+/* 截图轮播 */
+@media only screen and (max-width: 280px) {
+#head{width:100%;float:left; text-align:left;}
+/* 头部 */
+#nr{ width:100%;}#nrpicw{ width:100%; height:45px; background-color:#FFF;line-height:40px;}#nrpicw h1{position:absolute; font-size:14px; color:#3d3c3c; float:left; left:80px;}#nrpicb{ width:100%; height:27px; background-color:#5f5e5e;}#nrpicb p{ font-size:12px; padding-left:80px; line-height:24px; color:#FFF;}#pic{width:44px;height:44px;background-color:#FFF;padding:6px;border:1px solid #c3c3c3;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;position:absolute;left: 15px;top: 55px;}#xiazai{ width:50px; height:17px; float:right; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius:5px; border:1px solid #2c93d5;background-image:url(../images/xiazai.jpg); background-repeat:repeat-x; background-size:100% 100%;line-height:17px; font-size:12px; margin:10px 5px 0 0; padding:5px; color:#FFF;}#xiazai a{ color:#FFF;}#xiazai a:hover{ color:#FFF;}
+/* 图标加名称 */
+#jietu{ width:100%; color:#FFF; overflow:hidden; background-color:#fff;}#jietu ul{ width:400%; margin:20px 50px;}#jietu h1{ font-size:18px; color:#3d3c3c; margin:20px;}#jietu li{ display:inline; margin:0 20px 0 0;}
+/* 截图栏 */
+#tuijian{ width:100%; background-color:#f2f2f2; padding:20px 0 30px 0;}#tuijian h1{ font-size:14px; font-weight:100; margin-left:20px; color:#3d3c3c;}#tuijian ul{ padding-left:20px;}#tuijian li{ float:left; width:25%; text-align:center; margin-top:20px;}#tuijian li p{ margin-top:5px; color:#666666;}
+/* 图标栏 */
+#wenben{ width:100%; padding:20px 0; background-color:#f2f2f2;}#wenben h1{ font-size:14px; color:#3d3c3c; margin: 0 20px 0 20px;}#wenben h2{ font-size:12px; color:#666; line-height:25px; margin:0 20px 5px 20px;}#wenben p{ font-size:12px; color:#666; line-height:25px; margin:0 20px; text-indent:24px;}.hezi{ width:100%; margin:10px 0;}.hezi h1{ font-size:14px; color:#3d3c3c; margin: 0 20px;}
+/* 内容 */
+.swipe {overflow: hidden;visibility: hidden;position: relative; text-align:center;}.swipe {/*max-width: 500px;*/margin: 0 auto;width: 100%;}.swipe-wrap {overflow: hidden;position: relative;}.swipe-wrap > div {float: left;width: 100%;	position: relative;}.swipe-wrap div img {margin:10px auto;padding:0;}
+/* 图片轮播 */
+/*位置指示*/
+nav #position {text-align: center;list-style: none;margin:10px 0;padding: 0}nav #position li {display: inline-block;width: 10px;height: 10px;border-radius: 10px;background: #666;box-shadow: inset 0 1px 3px black, 0 0 1px 1px #999;margin: 0 2px;cursor: pointer}nav #position li.on {box-shadow: inset 0 1px 3px -1px #ddd, 0 1px 2px rgba(0,0,0,.5);background-color: #ccc;background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ccc), color-stop(100%, #ddd));background-image: -webkit-linear-gradient(top, #CCC, #ddd);background-image: -moz-linear-gradient(top, #ccc, #ddd);background-image: -ms-linear-gradient(top, #ccc, #ddd);background-image: -o-linear-gradient(top, #ccc, #ddd);background-image: linear-gradient(top, #ccc, #ddd)}
+/*位置指示结束*/
+/* 截图轮播 */
+}

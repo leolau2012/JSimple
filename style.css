@@ -1,0 +1,41 @@
+/*
+Theme Name: JSimple
+Theme URI: http://www.wpdic.com
+Description: ipad,mobile,自适应移动主题。
+Version: 1.0
+Author:Leo Lau
+Author URI: http://wpdic.com
+Tags: moblie,ipad,jquery moblie, 响应式布局
+*/
+
+/*
+@import "css/layout.css";
+*/
+@import "css/reset.css";
+@import "css/typography.css";
+img {
+	max-width: 100%;
+}
+.center {
+	text-align: center;
+}
+.comment-body .ui-li-desc {
+	white-space: normal;
+}
+
+/* media queries for jQM*/
+@media all and (min-width: 650px) {
+#sidebar {
+	width: 34%;
+	margin-left: 65%;
+}
+#main {
+	width: 63%;
+	float: left;
+}
+}
+@media all and (max-width:649px) {
+#sidebar {
+	border-top: 2px solid #999;
+}
+}

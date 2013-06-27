@@ -1,0 +1,1 @@
+基于jqm的wordpress移动ipadpc多设备主题 功能介绍： 1.banner轮播（PC手机通用） 2.头部尾部公用。 3.swipe抽屉 4.推拉刷新数据。 5.ipad等宽屏适配

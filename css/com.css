@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+a:link {
+	color: #3c3c3c;
+	text-decoration: none;
+}
+a:visited {
+	color: #3c3c3c;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	color: #3a3a3a;
+}
+img {
+	border: none;
+	border: 0;
+	outline: none;
+}
+.clear {
+	clear: both;
+}
+ul, ol {
+	list-style-type: none;
+}
+/* 通配 */
+#body {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+#head {
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+.head2 {
+	width: 100%;
+	float: left;
+	line-height: 10px;
+	font-size: 18px;
+	height: 20px;
+	padding: 10px 0;
+	background-image: url(../images/xiangxijb.png);
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+	box-shadow: 0px 2px 5px #999;
+	z-index: 10;
+}
+.head2 .fangzi {
+	width: 20px;
+	height: 18px;
+	float: right;
+	background-image: url(../images/fanzi.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-right: 20px;
+}
+.head2 img {
+	float: left;
+	margin: 0 20px 0 30px;
+}
+.head2 nav {
+	float: left;
+	color: #FFF;
+	font-size: 18px;
+	line-height: 11px;
+}
+.head2 span {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+}
+#body {
+	width: 100%;
+	margin: 0 auto;
+}
+#head {
+	width: 100%;
+	background-image: url(../images/xiangxijb.png);
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+}
+.head1 {
+	width: 100%;
+	float: left;
+	line-height: 16px;
+	font-size: 18px;
+	height: 18px;
+	padding: 14px 0;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+	text-align: center;
+	color: #FFF;
+	text-align: left;
+	box-shadow: 0px 2px 5px #999;
+}
+.head1 img {
+	float: left;
+	margin: 0 20px 0 20px;
+	z-index: 10;
+}
+.head1 nav {
+	float: left;
+	color: #FFF;
+	font-size: 17px;
+	text-align: center;
+	line-height: 16px;
+}
+.head1 nav span {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+.head4 {
+	position: absolute;
+	width: 10%;
+	float: right;
+	font-size: 18px;
+	height: 14px;
+	padding: 14px 0;
+	left: 90%;
+	top: 0px;
+}
+/*头部*/     /*2级页面详细页样式*/
+#xiaoshi {
+	position: absolute;
+	left: 5px;
+	top: 40px;
+	width: 200px;
+	height: 250px;
+	z-index: 1;
+	background-color: #575757;
+	text-align: center;
+	display: none;
+	background: rgba(0,0,0,0.74);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+#xiaoshi:after, .backpop:after {
+	position: absolute;
+	top: -8px;
+	left: 26px;
+	content: "";
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-bottom: 8px solid rgba(0, 0, 0, 0.8);
+	border-top: none;
+}
+#xiaoshi ul {
+	width: 100%;
+}
+#xiaoshi ul li {
+	width: 180px;
+	color: #FFF;
+	height: 30px;
+	margin: 15px 10px;
+	line-height: 30px;
+}
+#xiaoshi ul li a {
+	display: block;
+	width: 180px;
+	color: #FFF;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 30px;
+	margin: 15px 0;
+	line-height: 30px;
+}
+/* 头部 */    /* 2级页面不带点的 */
+.float {
+	float: right;
+}
+#footer {
+	width: 100%;
+	margin-top: 4%;
+}
+#footer ul {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer li {
+	float: left;
+	width: 90px;
+	height: 15px;
+	line-height: 15px;
+	border-left: 2px solid #969696;
+	overflow: hidden;
+}
+#footer li h2 {
+	font-size: 14px;
+	height: 15px;
+	line-height: 15px;
+	font-weight: 100;
+	color: #444444;
+}
+#footer p {
+	margin-top: 3%;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 100;
+	line-height: 20px;
+}
+#footer .weibu {
+	margin-top: 3%;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 100;
+	line-height: 20px;
+}
+#footer li a {
+	display: block;
+	height: 15px;
+	color: #444444;
+	line-height: 15px;
+}
+#footer li a:hover {
+	color: #444444;
+}
+.box {
+	width: 182px;
+	margin: 0 auto;
+}
+/* 脚部 */
+@media only screen and (max-width:280px) {
+#body {
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+#head {
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+.head2 {
+	width: 100%;
+	float: left;
+	line-height: 10px;
+	font-size: 18px;
+	height: 20px;
+	padding: 10px 0;
+	background-image: url(../images/xiangxijb.png);
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+	box-shadow: 0px 2px 5px #999;
+	z-index: 10;
+}
+.head2 img {
+	float: left;
+	margin: 0 10px 0 10px;
+}
+.head2 nav {
+	float: left;
+	color: #FFF;
+	font-size: 18px;
+	line-height: 11px;
+}
+.head2 span {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+}
+/* 头部 */   /* 2级页面首页样式 */
+#body {
+	width: 100%;
+	margin: 0 auto;
+}
+#head {
+	width: 100%;
+	background-image: url(../images/xiangxijb.png);
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+}
+.head1 {
+	width: 100%;
+	float: left;
+	line-height: 16px;
+	font-size: 18px;
+	height: 18px;
+	padding: 14px 0;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+	text-align: center;
+	color: #FFF;
+	text-align: left;
+	box-shadow: 0px 2px 5px #999;
+}
+.head1 img {
+	float: left;
+	margin: 0 10px 0 10px;
+	z-index: 10;
+}
+.head1 nav {
+	float: left;
+	color: #FFF;
+	font-size: 17px;
+	text-align: center;
+	line-height: 16px;
+}
+.head1 nav span {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+.head4 {
+	position: absolute;
+	width: 10%;
+	float: right;
+	font-size: 18px;
+	height: 14px;
+	padding: 14px 0;
+	left: 90%;
+	top: 0px;
+}
+#xiaoshi {
+	position: absolute;
+	left: 5px;
+	top: 40px;
+	width: 150px;
+	height: 200px;
+	z-index: 1;
+	background-color: #575757;
+	text-align: center;
+	display: none;
+	background: rgba(0,0,0,0.74);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+#xiaoshi:after, .backpop:after {
+	position: absolute;
+	top: -8px;
+	left: 6px;
+	content: "";
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-bottom: 8px solid rgba(0, 0, 0, 0.8);
+	border-top: none;
+}
+#xiaoshi ul {
+	width: 100%;
+}
+#xiaoshi ul li {
+	width: 130px;
+	color: #FFF;
+	height: 20px;
+	margin: 0 10px;
+	line-height: 00px;
+}
+#xiaoshi ul li a {
+	display: block;
+	width: 130px;
+	color: #FFF;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: 30px;
+	margin: 15px 0;
+	line-height: 25px;
+}
+#xiaoshi ul li a:hover {
+	background-color: #1ea0e5;
+	width: 130px;
+	height: 30px;
+	margin: 15px 0;
+	line-height: 25px;
+}
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{color:#000;text-decoration:none;}
+a:hover{color:#000;}
+a:visited{ color:#000;}
+a:active{color: #000}
+img{border:none;-ms-interpolation-mode: bicubic;}	
+.clear{clear:both;}	
+body{font-size:100%;font-family:"微软雅黑";font-family:Arial, Helvetica, sans-serif;background-color:#f2f3f7;}
+ul,ol{list-style-type:none;}
+#body{width:100%;margin:0 auto;float:left;}
+#head{width:100%; background-image:url(../images/amuse-xiaohualogo1.jpg); background-repeat:repeat-x;}
+.head1{width:25%;float:left;}
+.head2{width:20%;float:right; text-align:right; padding-right:5%;}	
+.head3{width:50%; height:40px; float:left;}
+.head3 h1{ text-align:center; line-height:40px; font-size:24px; color:#FFF; font-weight:100;}
+#daohang{width:100%; margin:2% 0;}
+.xdh{ width:20%; background-image:#FFF; margin:0% auto; text-align:center; background-color:#525252; -moz-border-radius:5px;-khtml-border-radius: 5px;-webkit-border-radius:5px;border-radius: 5px; font-size:18px; color:#FFF;}
+.nr{ width:96%; margin:0 2%; background-color:#FFF; -moz-border-radius:11px;-khtml-border-radius: 11px;-webkit-border-radius:11px;border-radius: 11px; text-align:center;box-shadow:1px 1px 5px #000;}
+.nrtu{ width:96%; padding:2%;}
+.nrtus{ width:100%;}
+.nrtux{text-align:left; background-color:#1f1f1f; margin:0 auto;}
+.nrtux h1{ font-weight:100; font-size:18px; color:#FFF; overflow:hidden; margin-left:12px;}
+.nrwz{ width:100%; padding:1% 0; border-bottom:1px solid #e6e6e6;}
+.nrwztu{ width:25%; text-align:left; float:left; margin:0 2%;}
+.nrwzz{ width:69%; height:77px; float:left; overflow:hidden; margin:0 2%;}
+.nrwzz h1{text-align:left; font-size:17px;}
+.nrwzz p{ text-align:left; font-size:14px; color:#999; margin-top:2px;}
+.float{float:right;}	
+#footer{width:100%; margin-top:2%; padding-top:2%; background-color:#f4f4f4;}	
+#footer ul{ width:100%; margin:0 auto; text-align:center;}
+#footer li{float:left;width:99px; height:25px; line-height:25px;border-left:1px solid #d7d7d7; overflow:hidden; }
+#footer li h2{font-size:14px; height:25px;line-height:25px;font-weight:100;color:#444444;}	
+#footer p{margin-top:3%;font-size:12px;text-align:center;font-weight:100; line-height:20px;}
+#footer li a{display:block;height:25px;color:#444444;background-color:#fff;}
+#footer li a:hover{color:#444444;background-color:#d0d0d0;}	
+.box1{ margin-left:10px; width:20%; margin-top:10px;}
+.box{ width:200px; margin:0 auto;}
